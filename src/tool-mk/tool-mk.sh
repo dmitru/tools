@@ -28,3 +28,7 @@ cat <<EOF > $TOOL_SRC
 echo "Hello, I'm a new tool, $TOOL_NAME."
 EOF
 
+edit $TOOL_SRC
+
+tool-link
+$TOOL_NAME
